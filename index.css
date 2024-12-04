@@ -1,0 +1,314 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    height: 46px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+ul {
+    display: flex;
+    /* justify-content: space-between ; */
+    padding-top: 5px;
+}
+
+body {
+    background-color: #e6ecf0;
+
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header img {
+    width: 30px;
+}
+
+.img {
+    padding-top: 5px;
+}
+
+li {
+    color: #4AB3F4;
+    padding: 5px;
+    font-weight: 600;
+    padding-left: 40px;
+    list-style-type: none;
+
+}
+header ul li a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+a {
+    text-decoration: none;
+    /* color: black;*/
+}
+
+.button1 {
+    padding-right: 30px;
+    padding-top: 6px;
+}
+
+button {
+    background-color: #4AB3F4;
+    width: 50px;
+    height: 20px;
+    border-radius: 10%;
+    color: white;
+    border: none;
+}
+
+main {
+    max-width: 110vw;
+    margin: 56px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.column1 {
+
+    height: 253px;
+
+
+
+}
+
+.banner {
+    /* position: relative; */
+    width: 310px;
+    height: 70px;
+    background-color: black;
+    padding-top: 10px;
+    padding-left: 2px;
+
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid white;
+    background-color: white;
+
+
+}
+
+.icon img {
+    width: 70px;
+    margin-top: -20px;
+    display: flex;
+    /* position: relative; */
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.icon h3 {
+    padding-left: 70px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.icon p {
+
+    /* padding-top:20px ; */
+    /* padding-right: 5000px; */
+    padding-left: 70px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    background-color: white;
+}
+
+.infonum {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    color: #4AB3F4;
+    background-color: white;
+}
+
+.column2 {
+    /* padding-left: 10px;  */
+    /* width: 2000px; */
+    height: 600px;
+    /* border:2px white; */
+    /* padding-right: 10px; */
+    font-size: medium;
+
+
+
+}
+
+.tweet1 {
+    width: 400px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding-left: 10px;
+    padding: 10px;
+}
+
+.h {
+    display: flex;
+    font-size: 15px;
+    margin-top: -45px;
+    margin-left: 52px;
+}
+
+.p {
+    font-size: 15px;
+    margin-top: -16px;
+    margin-left: 60px;
+    padding-top: 30px;
+}
+
+.tweet1 img {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    border: 1px solid black;
+}
+
+.coln3 {
+
+    background-color: white;
+    height: 200px;
+
+}
+
+.tweets1 {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+}
+
+.btn {
+
+    background-color: white;
+    color: #4AB3F4;
+    border: 1px solid #4AB3F4;
+}
+
+.btn:hover {
+    background-color: #4AB3F4;
+    color: white;
+}
+
+
+.tweets1 img {
+    width: 48px;
+    height: 48px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.head {
+    padding-left: 50px;
+}
+
+.linguini {
+    display: flex;
+    font-size: 12px;
+    margin-top: -55px;
+    margin-left: 56px;
+    padding: 10px;
+}
+
+.button {
+    font-size: 12px;
+    margin-top: -2px;
+    margin-left: 65px;
+    height: 20px;
+    width: 55px;
+}
+
+@media screen and (max-width:600px) {
+
+
+    main {
+        margin: 45px;
+    }
+
+    header {
+        width: 100vw;
+         display: flex;
+         align-items: center;
+       
+
+
+    }
+
+    header ul {
+        width: 69vw;
+        font-size: 10px;
+        margin-left: 2px;
+
+    }
+
+    header li {
+        padding: 0px;
+        padding-left: 40px;
+
+    }
+
+    header div {
+        display: none;
+    }
+
+    .column1 {
+        margin-top: 20px;
+        height: 200px;
+        width: 72vw;
+    }
+
+    .banner {
+        width: 72vw;
+    }
+
+    .banner img {
+        width: 71vw;
+    }
+
+    .column2 {
+        /* display: flex;
+        flex-wrap: wrap;  */
+        /* gap: 2px; */
+        height: max-content;
+        margin-bottom: 30px;
+        width: 200px;
+    }
+
+    .tweet1 {
+
+        width: 72vw;
+        font-size: small;
+        padding-top: -2px;
+        height: 8rem;
+    }
+
+    .coln3 {
+        width: 72vw;
+    }
+}
